@@ -49,6 +49,12 @@ footer{
     color: blueviolet;
 }
 
+footer a img{
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
+
 
 /* ESTILOS DE INICIO */
 
@@ -162,8 +168,3 @@ main .lineas img{
     margin: 20px;
 }
 
-footer a img{
-    height: 50px;
-    width: 50px;
-    margin-left: 100px;
-}
