@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ESTILOS GENERALES */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+
+header{
+    text-align: center;
+    background-color: lightgray;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+
+header nav ul li{
+    display: inline-block;
+    padding-inline: 90px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+header nav h1 img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 100px;
+}
+
+footer{
+    background-color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    color: blueviolet;
+}
+
+
+/* ESTILOS DE INICIO */
+
+main .logoIndex{
+    margin: 50px;
+    margin-left: 200px;
+    width: 900px;
+    height: 500px;
+}
+
+main .index{
+    text-align: center;
+    color: black;
+}
+
+
+/* ESTILOS DE CONTACTO */
+
+main .contacto{
+    color: black;
+    text-align: justify;
+}
+
+main .mapa{
+    text-align: right;
+}
+main .mapa img{
+    height: 500px;
+    width: 700px;
+}
+
+
+/* ESTILOS DE HISTORIA */
+
+main .parrafoHistoria p{
+    text-align: justify;
+}
+
+main .parrafoHistoria{
+    text-align: left;
+}
+
+main .historiaFoto{
+    text-align: right;
+}
+
+main .historiaFoto img{
+    height: 500px;
+    width: 400px;
+}
+
+
+/* ESTILOS TALLER */
+
+main .tallerUno p{
+    text-align: left;
+}
+
+main .tallerUno div{
+    text-align: right;
+}
+
+main .tallerUno div img{
+    height: 500px;
+    width: 675px;
+}
+
+main .tallerDos p{
+    text-align: right;
+}
+
+main .tallerDos div{
+    text-align: start;
+}
+
+main .tallerDos div img{
+    height: 500px;
+    width: 675px;
+}
+
+
+/* ESTILOS DE PRODUCTOS */
+
+main h1{
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+main .velas{
+    margin-left: 100px;
+}
+
+main .velas img{
+    height: 400px;
+    margin: 20px;
+}
+
+main h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+main .lineas{
+    margin-left: 100px;
+}
+
+main .lineas img{
+    height: 400px;
+    margin: 20px;
+}
+
+footer a img{
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
