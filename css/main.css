@@ -20,6 +20,7 @@ header{
 
 header nav ul{
     list-style: none;
+    margin-right: 18px;
 }
 
 
@@ -40,7 +41,7 @@ header nav ul li a{
     text-decoration: none;
 }
 
-header nav img{
+header nav a img{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 250px;
@@ -139,33 +140,34 @@ main .tallerDos div img{
 
 /* ESTILOS DE PRODUCTOS */
 
-main h1{
+main .container-fluid-productos h1{
     margin-top: 15px;
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
 }
-main .velas{
-    margin-left: 100px;
+
+main .container-fluid-productos .row .col{
+    text-align: center;
 }
 
-main .velas img{
-    height: 400px;
+main .container-fluid-productos .row .col img{
+    height: 450px;
     margin: 20px;
 }
 
-main h2{
+main .container-fluid-productos h2{
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
 }
 
-main .lineas{
+main .container-fluid-productos .lineas{
     margin-left: 100px;
 }
 
-main .lineas img{
-    height: 400px;
+main .container-fluid-productos .lineas img{
+    height: 450px;
     margin: 20px;
 }
 
