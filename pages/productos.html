@@ -10,61 +10,46 @@
 </head>
 <body>
     <header>
-        <div class="container"></div>
-            <nav>
-                <a href="../index.html">
-                    <img src="../img/logo1.jpg" alt=" Logo de Amelia Homes ">
-                </a>
-                <ul>
-                    <li>
-                        <a href="../index.html"> Inicio </a>
-                    </li>
-                    <li>
-                        <a href="productos.html"> Productos </a>
-                    </li>
-                    <li>
-                        <a href="taller.html"> Taller </a>
-                    </li>
-                    <li>
-                        <a href="historia.html"> Historia </a>
-                    </li>
-                    <li>
-                        <a href="contacto.html"> Contacto </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar bg-body-$gray-500">
+            <div class="container mx-auto d-block">
+                <div class="d-flex justify-content-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../img/logo1.jpg" alt="Logo de Amelia Homes" width="30" height="24">
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-$gray-500">
+            <div class="container-fluid">
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-link mx-5" href="../index.html">Inicio</a>
+                        <a class="nav-link mx-5" href="productos.html">Productos</a>
+                        <a class="nav-link mx-5" href="historia.html">Historia</a>
+                        <a class="nav-link mx-5" href="taller.html">Taller</a>
+                        <a class="nav-link mx-5" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <main class="productos">
-        <section class="container-fluid">
-            <h1> Velas </h1>
-            <div class="row">
-                <div class="col">
-                    <img src="../img/velasVidrio.jpg" alt=" Velas en recipiente de vidrio ">
-                </div>
-                <div class="col">
-                    <img src="../img/velasLata.jpg" alt="Velas en recipiente de lata ">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <img src="../img/velasCuenco.jpg" alt="Velas en cuenco de madera ">
-                </div>
-                <div class="col">
-                    <img src="../img/caramelera.jpg" alt="Velas en caramelera ">
-                </div>
-            </div>
-            <h2> Líneas </h2>
-            <div class="row">
-                <div class="col">
-                    <img src="../img/lineaVidrio.jpg" alt=" Linea vidrio ">
-                </div>
-                <div class="col">
-                    <img src="../img/lineaPlastico.jpg" alt=" Linea plastico ">
-                </div>
-            </div>
-        </section>
+    <main>
+        <h1> Velas </h1>
+        <div class="velas">
+            <img src="../img/velasVidrio.jpg" alt=" Velas en recipiente de vidrio ">
+            <img src="../img/velasLata.jpg" alt="Velas en recipiente de lata ">
+            <img src="../img/velasCuenco.jpg" alt="Velas en cuenco de madera ">
+            <img src="../img/caramelera.jpg" alt="Velas en caramelera ">
+        </div>
+        <h2> Líneas </h2>
+        <div class="lineas">
+            <img src="../img/lineaVidrio.jpg" alt=" Linea vidrio ">
+            <img src="../img/lineaPlastico.jpg" alt=" Linea plastico ">
+        </div>
     </main>
 
     <footer>
