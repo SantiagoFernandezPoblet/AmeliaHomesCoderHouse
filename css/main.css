@@ -64,14 +64,11 @@ footer .container a img{
 /* ESTILOS DE INICIO */
 
 .container-fluid{
-    height: 600px;
     text-align: center;
+    display: inline-block;
 }
 
-.container-fluid .logoIndex{
-    width: 100%;
-    height: 100%;
-}
+
 
 
 /* ESTILOS DE CONTACTO */
