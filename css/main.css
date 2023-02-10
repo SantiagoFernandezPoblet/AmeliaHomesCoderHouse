@@ -23,8 +23,12 @@ header nav div div div .nav-link{
     font-size: 24px;
 }
 
+header nav div div div .nav-link:hover{
+    text-decoration: underline;
+}
+
 header nav div a img{
-    margin-top: 20px;
+    margin-top: 10px;
     width: 260px;
     height: 110px;
 }
@@ -46,83 +50,69 @@ footer .container a img{
 .container-fluid{
     text-align: center;
     display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-
-
 
 /* ESTILOS DE CONTACTO */
 
-main .contacto{
-    color: black;
-    text-align: justify;
+.mainContacto{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-main .mapa{
-    text-align: right;
-}
-main .mapa img{
-    height: 500px;
-    width: 700px;
+.mainContacto div div div img{
+    width: 100%;
 }
 
 
 /* ESTILOS DE HISTORIA */
 
-main .parrafoHistoria p{
+.mainHistoria{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mainHistoria div div div p{
+    color: black;
     text-align: justify;
 }
 
-main .parrafoHistoria{
-    text-align: left;
-}
-
-main .historiaFoto{
-    text-align: right;
-}
-
-main .historiaFoto img{
-    height: 500px;
-    width: 400px;
+.mainHistoria div div div img{
+    width: 100%;
 }
 
 
 /* ESTILOS TALLER */
 
-main .tallerUno p{
-    text-align: left;
+.mainTaller{
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
-main .tallerUno div{
-    text-align: right;
+.mainTaller div div div p{
+    text-align: justify;
+    margin-left: 5px;
 }
 
-main .tallerUno div img{
-    height: 500px;
-    width: 675px;
-}
-
-main .tallerDos p{
-    text-align: right;
-}
-
-main .tallerDos div{
-    text-align: start;
-}
-
-main .tallerDos div img{
-    height: 500px;
-    width: 675px;
+.mainTaller div div div img{
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 
 /* ESTILOS DE PRODUCTOS */
 
-main div div div img{
+.mainProductos div div div img{
     margin-bottom: 20px;
+    transition: 0.5s;
 }
 
-main h1{
+.mainProductos div div div img:hover{
+    scale: 1.2;
+}
+
+.mainProductos h1{
     padding-top: 15px;
     margin-bottom: 20px;
     text-align: center;
@@ -130,10 +120,9 @@ main h1{
     font-size: 30px;
 }
 
-main h2{
+.mainProductos h2{
     margin-bottom: 20px;
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
 }
-
