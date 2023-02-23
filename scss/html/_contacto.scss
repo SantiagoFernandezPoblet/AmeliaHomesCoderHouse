@@ -1,0 +1,28 @@
+/* estilos de contacto */
+
+.mainContacto{
+    div{
+        div{
+            div{
+                img{
+                    width: 100%;
+                }
+                div{
+                    label{
+                        color: black;
+                        text-decoration: underline;
+                        font-size: 21px;
+                    }
+                    button{
+                        background-color: darkgray;
+                        border-color: black;
+                    }
+                    button:hover{
+                        background-color: black;
+                        border-color: black;
+                    }
+                }
+            }
+        }
+    }
+}
