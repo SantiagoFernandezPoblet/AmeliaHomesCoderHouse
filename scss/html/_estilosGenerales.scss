@@ -39,10 +39,14 @@ header{
 footer{
     @include footer;
     .container{
+        
         a{
-            img{
-                @include logoInstagramFooter(50px, 50px);
+            svg{
+                @extend %logosFooter;
             }
+        }
+        svg{
+            @extend %logosFooter;
         }
     }
 }

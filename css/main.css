@@ -23,6 +23,12 @@ main {
   text-decoration: underline;
   font-size: 30px; }
 
+footer .container a svg, footer .container svg {
+  width: 50px;
+  height: 50px;
+  color: black;
+  margin-inline: 15px; }
+
 /* estilos generales */
 /* estilos de header */
 header nav div div div .nav-link {
@@ -41,9 +47,6 @@ header nav div a img {
 footer {
   padding-top: 30px;
   padding-bottom: 25px; }
-  footer .container a img {
-    width: 50px;
-    height: 50px; }
 
 /* estilos de inicio */
 .container-fluid {
