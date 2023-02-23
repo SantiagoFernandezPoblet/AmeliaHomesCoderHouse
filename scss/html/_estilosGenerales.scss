@@ -1,0 +1,48 @@
+
+@import "../utilidades/variables";
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+
+/* estilos generales */
+
+main{
+    @extend %main;
+}
+
+/* estilos de header */
+
+header{
+    @extend %gris;
+    nav{
+        div{
+            div{
+                div{
+                    .nav-link{
+                        @include titulos;
+                    }
+                    .nav-link:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            a{
+                img{
+                    @include logoHeader(10px, 260px, 110px);
+                }
+            }
+        }
+    }
+}
+
+/* estilos de footer */
+
+footer{
+    @include footer;
+    .container{
+        a{
+            img{
+                @include logoInstagramFooter(50px, 50px);
+            }
+        }
+    }
+}

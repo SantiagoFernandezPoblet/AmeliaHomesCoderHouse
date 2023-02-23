@@ -1,0 +1,19 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "html/estilosGenerales";
+
+@import "html/inicio";
+
+@import "html/historia";
+
+@import "html/taller";
+
+@import "html/productos";
+
+@import "html/contacto";

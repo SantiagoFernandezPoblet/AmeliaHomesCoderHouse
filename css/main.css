@@ -1,128 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
+header, footer {
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif; }
 
-/* ESTILOS GENERALES */
+main {
+  background-color: #ececec;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
-main{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(236, 236, 236);
-}
+.mainProductos h1, .mainProductos h2 {
+  padding-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px; }
 
+/* estilos generales */
+/* estilos de header */
+header nav div div div .nav-link {
+  color: black;
+  font-size: 24px; }
 
-header{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
-}
+header nav div div div .nav-link:hover {
+  text-decoration: underline; }
 
-header nav div div div .nav-link{
-    color: black;
-    font-size: 24px;
-}
+header nav div a img {
+  margin-top: 10px;
+  width: 260px;
+  height: 110px; }
 
-header nav div div div .nav-link:hover{
-    text-decoration: underline;
-}
-
-header nav div a img{
-    margin-top: 10px;
-    width: 260px;
-    height: 110px;
-}
-
-footer{
-    background-color: lightgray;
-    padding-top: 30px;
-    padding-bottom: 25px;
-}
-
-footer .container a img{
-    height: 50px;
+/* estilos de footer */
+footer {
+  padding-top: 30px;
+  padding-bottom: 25px; }
+  footer .container a img {
     width: 50px;
-}
+    height: 50px; }
 
-
-/* ESTILOS DE INICIO */
-
-.container-fluid{
-    text-align: center;
+/* estilos de inicio */
+.container-fluid {
+  text-align: center;
+  display: inline-block; }
+  .container-fluid #carouselExampleIndicators {
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+    width: 60%; }
+  .container-fluid div .carousel-inner {
+    display: inline-block;
+    height: 100%;
+    width: 100%; }
 
-/* ESTILOS DE CONTACTO */
+/* estilos de historia */
+.mainHistoria div div div p {
+  color: black;
+  text-align: justify; }
 
-.mainContacto{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+.mainHistoria div div div img {
+  width: 100%; }
 
-.mainContacto div div div img{
-    width: 100%;
-}
+/* estilos de taller */
+.mainTaller div div div p {
+  text-align: justify;
+  margin-left: 5px; }
 
+.mainTaller div div div img {
+  width: 100%;
+  margin-bottom: 5px; }
 
-/* ESTILOS DE HISTORIA */
+/* estilos de productos */
+.mainProductos div div div img {
+  margin-bottom: 20px;
+  transition: 0.7s; }
 
-.mainHistoria{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.mainHistoria div div div p{
-    color: black;
-    text-align: justify;
-}
-
-.mainHistoria div div div img{
-    width: 100%;
-}
-
-
-/* ESTILOS TALLER */
-
-.mainTaller{
-    padding-top: 20px;
-    padding-bottom: 15px;
-}
-
-.mainTaller div div div p{
-    text-align: justify;
-    margin-left: 5px;
-}
-
-.mainTaller div div div img{
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-
-/* ESTILOS DE PRODUCTOS */
-
-.mainProductos div div div img{
-    margin-bottom: 20px;
-    transition: 0.5s;
-}
-
-.mainProductos div div div img:hover{
-    scale: 1.2;
-}
-
-.mainProductos h1{
-    padding-top: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 30px;
-}
-
-.mainProductos h2{
-    margin-bottom: 20px;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 30px;
-}
+.mainProductos div div div img:hover {
+  scale: 1.2; }

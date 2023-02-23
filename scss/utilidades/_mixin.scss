@@ -1,0 +1,26 @@
+// mixin con parametros
+
+@mixin logoHeader($margin-top, $width, $height){
+    margin-top: $margin-top;
+    width: $width;
+    height: $height;
+}
+
+@mixin logoInstagramFooter($width, $height){
+    width: $width;
+    height: $height;
+}
+
+// mixin sin parametros
+
+
+@mixin titulos{
+    color: black;
+    font-size: 24px;
+}
+
+@mixin footer{
+    @extend %gris;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}

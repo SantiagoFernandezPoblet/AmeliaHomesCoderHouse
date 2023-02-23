@@ -1,0 +1,17 @@
+/* estilos de inicio */
+
+.container-fluid{
+    text-align: center;
+    display: inline-block;
+    #carouselExampleIndicators{
+        display: inline-block;
+        width: 60%;
+    }
+    div{
+        .carousel-inner{
+        display: inline-block;
+        height: 100%;
+        width: 100%;}
+    }
+}
+

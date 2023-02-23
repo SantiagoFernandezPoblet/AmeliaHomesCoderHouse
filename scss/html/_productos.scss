@@ -1,0 +1,23 @@
+/* estilos de productos */
+
+.mainProductos{
+    h1{
+        @extend %productosH;
+    }
+    h2{
+        @extend %productosH;
+    }
+    div{
+        div{
+            div{
+                img{
+                    margin-bottom: 20px;
+                    transition: 0.7s;
+                }
+                img:hover{
+                    scale: 1.2;
+                }
+            }
+        }
+    }
+}
