@@ -1,14 +1,14 @@
 {
   "name": "preentrega2fernenadezpoblet",
   "version": "1.0.0",
-  "description": "",
+  "description": " Proyecto Amelia Homes, pagina web de presentacion del emprendimiento",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm  run build-css\""
   },
-  "author": "",
+  "author": " Santiago Fernandez Poblet",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^8.0.0",
