@@ -3,11 +3,37 @@
 .mainContacto{
     div{
         div{
-            div{
+            .formulario{
+                label{
+                    color: black;
+                    text-decoration: underline;
+                    font-size: 21px;
+                }
+                button{
+                    background-color: darkgray;
+                    border-color: black;
+                }
+                button:hover{
+                    background-color: black;
+                    border-color: black;
+                }
+            }
+            .mapa{
                 img{
                     width: 100%;
                 }
-                div{
+            }                
+        }
+    }
+}
+
+@media screen and (max-width:920px){
+    .mainContacto{
+        div{
+            div{
+                display: inline-block;
+                .formulario{
+                    display: grid;
                     label{
                         color: black;
                         text-decoration: underline;
@@ -22,6 +48,11 @@
                         border-color: black;
                     }
                 }
+                .mapa{
+                    img{
+                        width: 100%;
+                    }
+                }                
             }
         }
     }

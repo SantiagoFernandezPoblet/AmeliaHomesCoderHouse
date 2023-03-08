@@ -3,13 +3,44 @@
 .mainHistoria{
     div{
         div{
-            div{
+            display: flex;
+            align-items: center;
+            #parrafo{
+                justify-content: end;
                 p{
                     color: black;
                     text-align: justify;
+                    width: 70%;
                 }
+            }
+            #img{
                 img{
-                    width: 100%;
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:920px) {
+    .mainHistoria{
+        div{
+            div{
+                display: flex;
+                align-items: center;
+                #parrafo{
+                    justify-content: center;
+                    p{
+                        color: black;
+                        text-align: justify;
+                        width: 70%;
+                    }
+                }
+                #img{
+                    justify-content: center;
+                    img{
+                        width: 70%;
+                    }
                 }
             }
         }

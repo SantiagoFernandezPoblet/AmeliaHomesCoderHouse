@@ -39,17 +39,31 @@ header{
 footer{
     @include footer;
     .container{
-        display: flex;
-        div{
-            a{
+            display: flex;
+            justify-content: center;
+            div{
+                margin-inline: 40px;
+            }
+            div{
+                a{
+                    svg{
+                        @extend %logosFooter;
+                    }
+                }
+            }
+            div{
                 svg{
                     @extend %logosFooter;
                 }
-            }
-        }
-        div{
-            svg{
-                @extend %logosFooter;
+            } 
+    }
+}
+
+@media screen and (max-width:920px){
+    footer{
+        .container{
+            div{
+                margin-inline: 10px;
             }
         }
     }

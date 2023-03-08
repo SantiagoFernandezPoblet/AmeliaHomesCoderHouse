@@ -48,7 +48,14 @@ footer {
   padding-top: 30px;
   padding-bottom: 25px; }
   footer .container {
-    display: flex; }
+    display: flex;
+    justify-content: center; }
+    footer .container div {
+      margin-inline: 40px; }
+
+@media screen and (max-width: 920px) {
+  footer .container div {
+    margin-inline: 10px; } }
 
 /* estilos de inicio */
 .container-fluid {
@@ -63,12 +70,32 @@ footer {
     width: 100%; }
 
 /* estilos de historia */
-.mainHistoria div div div p {
-  color: black;
-  text-align: justify; }
+.mainHistoria div div {
+  display: flex;
+  align-items: center; }
+  .mainHistoria div div #parrafo {
+    justify-content: end; }
+    .mainHistoria div div #parrafo p {
+      color: black;
+      text-align: justify;
+      width: 70%; }
+  .mainHistoria div div #img img {
+    width: 70%; }
 
-.mainHistoria div div div img {
-  width: 100%; }
+@media screen and (max-width: 920px) {
+  .mainHistoria div div {
+    display: flex;
+    align-items: center; }
+    .mainHistoria div div #parrafo {
+      justify-content: center; }
+      .mainHistoria div div #parrafo p {
+        color: black;
+        text-align: justify;
+        width: 70%; }
+    .mainHistoria div div #img {
+      justify-content: center; }
+      .mainHistoria div div #img img {
+        width: 70%; } }
 
 /* estilos de taller */
 .mainTaller div div div p {
@@ -88,18 +115,36 @@ footer {
   scale: 1.2; }
 
 /* estilos de contacto */
-.mainContacto div div div img {
-  width: 100%; }
-
-.mainContacto div div div div label {
+.mainContacto div div .formulario label {
   color: black;
   text-decoration: underline;
   font-size: 21px; }
 
-.mainContacto div div div div button {
+.mainContacto div div .formulario button {
   background-color: darkgray;
   border-color: black; }
 
-.mainContacto div div div div button:hover {
+.mainContacto div div .formulario button:hover {
   background-color: black;
   border-color: black; }
+
+.mainContacto div div .mapa img {
+  width: 100%; }
+
+@media screen and (max-width: 920px) {
+  .mainContacto div div {
+    display: inline-block; }
+    .mainContacto div div .formulario {
+      display: grid; }
+      .mainContacto div div .formulario label {
+        color: black;
+        text-decoration: underline;
+        font-size: 21px; }
+      .mainContacto div div .formulario button {
+        background-color: darkgray;
+        border-color: black; }
+      .mainContacto div div .formulario button:hover {
+        background-color: black;
+        border-color: black; }
+    .mainContacto div div .mapa img {
+      width: 100%; } }
